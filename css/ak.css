@@ -7,7 +7,7 @@
 @font-face {
     font-family: "Novecentosanswide Bold";
     src: url("fonts/Novecentosanswide-Bold-webfont.eot");
-    src:
+    src: 
     url("fonts/Novecentosanswide-Bold-webfont.woff") format("woff"),
     url("fonts/Novecentosanswide-Bold-webfont.otf") format("opentype"),
     url("fonts/Novecentosanswide-Bold-webfont.svg#filename") format("svg");
@@ -16,7 +16,7 @@
 @font-face {
     font-family: "Novecentosanswide Normal";
     src: url("fonts/Novecentosanswide-Normal-webfont.eot");
-    src:
+    src: 
     url("fonts/Novecentosanswide-Normal-webfont.woff") format("woff"),
     url("fonts/Novecentosanswide-Normal-webfont.otf") format("opentype"),
     url("fonts/Novecentosanswide-Normal-webfont.svg#filename") format("svg");
@@ -161,17 +161,17 @@ body>nav .navbar-nav, #navbarNav {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f1f1f1; 
 }
-
+ 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #888; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #555; 
 }
 
 a:link,a:visited{
@@ -189,7 +189,7 @@ a:hover,a:active{
 .dropdown-menu>a{
     background : #00000055;
     border-radius: 4px;
-    margin-bottom: 2px;
+    margin-bottom: 2px; 
     text-align: center;
     color: #DDD !important
 }
@@ -197,7 +197,7 @@ a:hover,a:active{
 .dropdown-menu>a:hover,a:active{
     background : #22222255;
     border-radius: 4px;
-    margin-bottom: 2px;
+    margin-bottom: 2px; 
     text-align: center;
     color: #DDD !important
 }
@@ -208,7 +208,7 @@ a:hover,a:active{
 /* .dropdown-item{
     background : #00000055;
     border-radius: 4px;
-    margin-bottom: 2px;
+    margin-bottom: 2px; 
     text-align: center;
     color: #DDD
 } */
@@ -227,17 +227,17 @@ body>nav .navbar-nav .active>a div {
     overflow: hidden;
     padding-right: 0 !important;
 }
-.btn.active.focus,
-.btn.active:focus,
-.btn.focus,
-.btn.focus:active,
-.btn:active:focus,
+.btn.active.focus, 
+.btn.active:focus, 
+.btn.focus, 
+.btn.focus:active, 
+.btn:active:focus, 
 .btn:focus,
-input[type='range'].active.focus,
-input[type='range'].active:focus,
-input[type='range'].focus,
-input[type='range'].focus:active,
-input[type='range']:active:focus,
+input[type='range'].active.focus, 
+input[type='range'].active:focus, 
+input[type='range'].focus, 
+input[type='range'].focus:active, 
+input[type='range']:active:focus, 
 input[type='range']:focus {
     outline: thin dotted;
     outline-offset: -2px;
@@ -338,7 +338,7 @@ html, body {
 }
 .modal-cg {
     text-align: center;
-
+    
 }
 .modal-dialog-cg{
     max-width: 90%;
@@ -390,11 +390,11 @@ html, body {
     margin: 0px;
 }
 .ak-div{
-    padding:10px;
+    padding:10px;   
 }
 
 .ak-table{
-    background-color: rgb(54, 54, 54) ;
+    background-color: rgb(54, 54, 54) ; 
     color:#ddd;
     border:none
 }
@@ -555,7 +555,7 @@ html, body {
     font-size: 1.1em;
     /* text-shadow: 0px 0px 2px #2f2f2f ; */
     background-color: #2f2f2f;
-
+    
 }
 
 .ak-subtitle2.medium{
@@ -788,10 +788,10 @@ html, body {
 .loadtext{
     display: inline-flex;
     margin: auto;
-    text-align: center;
-    color: white;
-    font-family: 'Novecentosanswide Normal', Arial, sans-serif;
-    font-size: 1.2em;
+    text-align: center; 
+    color: white; 
+    font-family: 'Novecentosanswide Normal', Arial, sans-serif; 
+    font-size: 1.2em; 
     margin-top: 13px;
     background: #222;
     border-radius: 6px;
@@ -828,7 +828,7 @@ html, body {
         max-height: 85vh;
         overflow-y: auto;
       }
-    .ak-card-group{
+    .ak-card-group{ 
         width:180px;
     }
     .ak-card-group .card-img-top{
@@ -847,7 +847,7 @@ html, body {
         width: 90px;
         height: 90px;
         padding-top:0px
-
+        
     }
     .ak-card-group .card-img-bg{
         margin-left:15px;
@@ -868,5 +868,5 @@ html, body {
 }
 /* .ak-card-group>.card{
     -webkit-box-flex:1;-ms-flex:1 0 0%;flex:1 0 0%;margin-bottom:0
-
+    
   } */
