@@ -1,3 +1,13 @@
+var emfn = 0;
+var orbn = 0;
+var gwn = 0;
+var ftn = 0;
+var sbn = 0;
+var fpn = 0;
+var emforb = 0;
+var x = 0;
+var y = 0;
+
 function emf() {
   var element = document.getElementById("emflight1");
   element.classList.toggle("light1");
@@ -13,6 +23,11 @@ function emf() {
   element.classList.toggle("light1");
   var element = document.getElementById("emfb");
   element.classList.toggle("light1");
+  if (emfn == 0) {
+    emfn++;
+  } else {
+    emfn--;
+  }
 }
 
 function orb() {
@@ -30,6 +45,11 @@ function orb() {
   element.classList.toggle("light1");
   var element = document.getElementById("orbb");
   element.classList.toggle("light1");
+  if (orbn == 0) {
+    orbn++;
+  } else {
+    orbn--;
+  }
 }
 
 function gw() {
@@ -47,6 +67,11 @@ function gw() {
   element.classList.toggle("light1");
   var element = document.getElementById("gwb");
   element.classList.toggle("light1");
+  if (gwn == 0) {
+    gwn++;
+  } else {
+    gwn--;
+  }
 }
 
 function ft() {
@@ -64,6 +89,11 @@ function ft() {
   element.classList.toggle("light1");
   var element = document.getElementById("ftb");
   element.classList.toggle("light1");
+  if (ftn == 0) {
+    ftn++;
+  } else {
+    ftn--;
+  }
 }
 
 function sb() {
@@ -83,6 +113,11 @@ function sb() {
   element.classList.toggle("light1");
   var element = document.getElementById("sbb");
   element.classList.toggle("light1");
+  if (sbn == 0) {
+    sbn++;
+  } else {
+    sbn--;
+  }
 }
 
 function fp() {
@@ -98,10 +133,226 @@ function fp() {
   element.classList.toggle("light1");
   var element = document.getElementById("fpb");
   element.classList.toggle("light1");
+  if (fpn == 0) {
+    fpn++;
+  } else {
+    fpn--;
+  }
+}
+
+function check() {
+
+  if (emfn == 1 && orbn == 1) {
+    var element = document.getElementById("fpb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("fpb");
+    element.classList.remove("disable");
+  }
+
+  if (emfn == 1 && gwn == 1) {
+    var element = document.getElementById("ftb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("ftb");
+    element.classList.remove("disable");
+  }
+
+  if (emfn == 1 && ftn == 1) {
+    var element = document.getElementById("gwb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("sbb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("gwb");
+    element.classList.remove("disable");
+    var element = document.getElementById("sbb");
+    element.classList.remove("disable");
+  }
+
+  if (emfn == 1 && sbn == 1) {
+    var element = document.getElementById("ftb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("fpb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("ftb");
+    element.classList.remove("disable");
+    var element = document.getElementById("fpb");
+    element.classList.remove("disable");
+  }
+
+  if (emfn == 1 && fpn == 1) {
+    var element = document.getElementById("orbb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("sbb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("orbb");
+    element.classList.remove("disable");
+    var element = document.getElementById("sbb");
+    element.classList.remove("disable");
+  }
+
+  if (orbn == 1 && gwn == 1) {
+    var element = document.getElementById("sbb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("fpb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("sbb");
+    element.classList.remove("disable");
+    var element = document.getElementById("fpb");
+    element.classList.remove("disable");
+  }
+
+  if (orbn == 1 && ftn == 1) {
+    var element = document.getElementById("fpb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("fpb");
+    element.classList.remove("disable");
+  }
+
+  if (orbn == 1 && sbn == 1) {
+    var element = document.getElementById("gwb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("gwb");
+    element.classList.remove("disable");
+  }
+
+  if (orbn == 1 && fpn == 1) {
+    var element = document.getElementById("emfb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("gwb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("ftb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("emfb");
+    element.classList.remove("disable");
+    var element = document.getElementById("gwb");
+    element.classList.remove("disable");
+    var element = document.getElementById("ftb");
+    element.classList.remove("disable");
+  }
+
+  if (gwn == 1 && ftn == 1) {
+    var element = document.getElementById("emfb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("fpb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("emfb");
+    element.classList.remove("disable");
+    var element = document.getElementById("fpb");
+    element.classList.remove("disable");
+  }
+
+  if (gwn == 1 && sbn == 1) {
+    var element = document.getElementById("orbb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("orbb");
+    element.classList.remove("disable");
+  }
+
+  if (gwn == 1 && fpn == 1) {
+    var element = document.getElementById("orbb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("ftb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("orbb");
+    element.classList.remove("disable");
+    var element = document.getElementById("ftb");
+    element.classList.remove("disable");
+  }
+
+  if (ftn == 1 && sbn == 1) {
+    var element = document.getElementById("emfb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("emfb");
+    element.classList.remove("disable");
+  }
+
+  if (ftn == 1 && fpn == 1) {
+    var element = document.getElementById("orbb");
+    element.classList.toggle("disable");
+    var element = document.getElementById("gwb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("orbb");
+    element.classList.remove("disable");
+    var element = document.getElementById("gwb");
+    element.classList.remove("disable");
+  }
+
+  if (sbn == 1 && fpn == 1) {
+    var element = document.getElementById("emfb");
+    element.classList.toggle("disable");
+    return;
+  } else {
+    var element = document.getElementById("emfb");
+    element.classList.remove("disable");
+  }
 }
 /*
-function clear(){
-  var element = document.getElementById("emflight1")
-  element.classList.toggle("lightoff")
+function clear() {
+  console.log(clear);
+  $('gbutton').removeClass('disable');
+  $('lightbox').removeClass('light1');
+}*/
+
+/*
+if ( == 1 &&  == 1) {
+  var element = document.getElementById("");
+  element.classList.toggle("disable");
+} else {
+  var element = document.getElementById("");
+  element.classList.remove("disable");
 }
+
+
+  var element = document.getElementById("");
+  element.classList.toggle("disable");
+  var element = document.getElementById("");
+  element.classList.toggle("disable");
+  } else {
+  var element = document.getElementById("");
+  element.classList.remove("disable");
+  var element = document.getElementById("");
+  element.classList.remove("disable");
+  }
+
+  var element = document.getElementById("");
+  element.classList.toggle("disable");
+  var element = document.getElementById("");
+  element.classList.toggle("disable");
+  var element = document.getElementById("");
+  element.classList.toggle("disable");
+  } else {
+  var element = document.getElementById("");
+  element.classList.remove("disable");
+  var element = document.getElementById("");
+  element.classList.remove("disable");
+  var element = document.getElementById("");
+  element.classList.remove("disable");
+  }
 */

@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/main.js"></script>
+  <script src='https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js'></script>
   <link rel="manifest" href="./manifest.json" crossorigin="use-credentials">
   <title>Ghost Lookup</title>
 </head>
@@ -107,14 +110,14 @@
     <div class="events">
       <table>
         <tr>
-          <td><button type="button" name="button" class="gbutton" onclick="emf()"><span id="emfb">EMF LEVEL 5</span></button></td>
-          <td><button type="button" name="button" class="gbutton" onclick="orb()"><span id="orbb">GHOST ORB</span></button></td>
-          <td><button type="button" name="button" class="gbutton" onclick="gw()"><span id="gwb">GHOST WRITING</span></button></td>
+          <td><button id="emfb" type="button" name="button" class="gbutton" onclick="emf(), check()">EMF LEVEL 5</button></td>
+          <td><button id="orbb" type="button" name="button" class="gbutton" onclick="orb(), check()">GHOST ORB</button></td>
+          <td><button id="gwb" type="button" name="button" class="gbutton" onclick="gw(), check()">GHOST WRITING</button></td>
         </tr>
         <tr>
-          <td><button type="button" name="button" class="gbutton" onclick="ft()"><span id="ftb">FREEZING TEMP</span></button></td>
-          <td><button type="button" name="button" class="gbutton" onclick="sb()"><span id="sbb">SPIRIT BOX</span></button></td>
-          <td><button type="button" name="button" class="gbutton" onclick="fp()"><span id="fpb">FINGER PRINTS</span></button></td>
+          <td><button id="ftb" type="button" name="button" class="gbutton" onclick="ft(), check()">FREEZING TEMP</button></td>
+          <td><button id="sbb" type="button" name="button" class="gbutton" onclick="sb(), check()">SPIRIT BOX</button></td>
+          <td><button id="fpb" type="button" name="button" class="gbutton" onclick="fp(), check()">FINGER PRINTS</button></td>
         </tr>
         <tr>
           <td></td>
@@ -125,7 +128,4 @@
     </div>
   </div>
 </body>
-<span></span>
-
 </html>
-<p></p>
