@@ -76,22 +76,34 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+/*
 .ghostlookup{
   margin-top: 25px;
+  display: flex;
 }
-
+*/
 .ghosts {
-  float: left;
-  text-align: right;
-  margin-left: 25%;
-
+  height: 10em;
+  position: relative;
+}
+.gtable{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: 50%;
 }
 
 .events {
-  float: right;
-  margin: 75px;
-  margin-right: 25%;
+  height: 10em;
+  position: relative;
+}
+.etable{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: 50%;
 }
 
 .gbutton {
@@ -128,3 +140,5 @@ body {
   cursor: not-allowed;
 }
 */
+
+/* <!-- --> */
