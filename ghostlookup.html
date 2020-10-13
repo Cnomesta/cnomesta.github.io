@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/main.js"></script>
   <title>ToolBox For Fun</title>
 </head>
 
@@ -14,7 +15,7 @@
     <img src="/img/logo.png" alt="" width="40" height="40" class="logo">
     <a href="#">COOLTOOLBOX</a>
     <a href="index.html">Home</a>
-    <a href="contact.html">contact</a>
+    <a href="contact.html">Contact</a>
     <div class="dropdown">
       <button class="dropbtn">Misc.Toolbox
         <i class="fa fa-caret-down"></i>
@@ -26,6 +27,105 @@
       </div>
     </div>
   </div>
+  <div class="ghostlookup">
+    <div class="ghosts">
+      <table>
+        <tr>
+          <td class="gname">Banshee</td>
+          <td class="lightbox" id="emflight1"></td>
+          <td class="lightbox" id="ftlight1"></td>
+          <td class="lightbox" id="fplight1"></td>
+        </tr>
+        <tr>
+          <td class="gname">Demon</td>
+          <td class="lightbox" id="gwlight1"></td>
+          <td class="lightbox" id="ftlight2"></td>
+          <td class="lightbox" id="sblight1"></td>
+        </tr>
+        <tr>
+          <td class="gname">Jinn</td>
+          <td class="lightbox" id="emflight2"></td>
+          <td class="lightbox" id="orblight1"></td>
+          <td class="lightbox" id="sblight2"></td>
+        </tr>
+        <tr>
+          <td class="gname">Mare</td>
+          <td class="lightbox" id="orblight2"></td>
+          <td class="lightbox" id="ftlight3"></td>
+          <td class="lightbox" id="sblight3"></td>
+        </tr>
+        <tr>
+          <td class="gname">Oni</td>
+          <td class="lightbox" id="emflight3"></td>
+          <td class="lightbox" id="gwlight2"></td>
+          <td class="lightbox" id="sblight4"></td>
+        </tr>
+        <tr>
+          <td class="gname">Phantom</td>
+          <td class="lightbox" id="emflight4"></td>
+          <td class="lightbox" id="orblight3"></td>
+          <td class="lightbox" id="ftlight4"></td>
+        </tr>
+        <tr>
+          <td class="gname">Poltergeist</td>
+          <td class="lightbox" id="orblight4"></td>
+          <td class="lightbox" id="sblight5"></td>
+          <td class="lightbox" id="fplight2"></td>
+        </tr>
+        <tr>
+          <td class="gname">Revenant</td>
+          <td class="lightbox" id="emflight5"></td>
+          <td class="lightbox" id="gwlight3"></td>
+          <td class="lightbox" id="fplight3"></td>
+        </tr>
+        <tr>
+          <td class="gname">Shade</td>
+          <td class="lightbox" id="emflight6"></td>
+          <td class="lightbox" id="orblight5"></td>
+          <td class="lightbox" id="gwlight4"></td>
+        </tr>
+        <tr>
+          <td class="gname">Spirit</td>
+          <td class="lightbox" id="gwlight5"></td>
+          <td class="lightbox" id="sblight6"></td>
+          <td class="lightbox" id="fplight4"></td>
+        </tr>
+        <tr>
+          <td class="gname">Wraith</td>
+          <td class="lightbox" id="ftlight5"></td>
+          <td class="lightbox" id="sblight7"></td>
+          <td class="lightbox" id="fplight5"></td>
+        </tr>
+        <tr>
+          <td class="gname">Yurei</td>
+          <td class="lightbox" id="orblight6"></td>
+          <td class="lightbox" id="gwlight6"></td>
+          <td class="lightbox" id="ftlight6"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="events">
+      <table>
+        <tr>
+          <td><button type="button" name="button" class="gbutton" onclick="emf()"><span id="emfb">EMF LEVEL 5</span></button></td>
+          <td><button type="button" name="button" class="gbutton" onclick="orb()"><span id="orbb">GHOST ORB</button></td>
+          <td><button type="button" name="button" class="gbutton" onclick="gw()"><span id="gwb">GHOST WRITING</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" name="button" class="gbutton" onclick="ft()"><span id="ftb">FREEZING TEMP</button></td>
+          <td><button type="button" name="button" class="gbutton" onclick="sb()"><span id="sbb">SPIRIT BOX</button></td>
+          <td><button type="button" name="button" class="gbutton" onclick="fp()"><span id="fpb">FINGER PRINTS</button></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="button" name="button" class="gbutton" onclick="clear()">CLEAR</button></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </body>
+<span></span>
 
 </html>
+<p></p>

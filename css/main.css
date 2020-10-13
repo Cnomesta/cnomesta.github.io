@@ -4,9 +4,10 @@ body {
   background-color: #808080;
 }
 
-.logo{
+.logo {
   float: left;
 }
+
 /*-navbar-*/
 .navbar {
   overflow: hidden;
@@ -75,3 +76,55 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.ghostlookup{
+  margin-top: 25px;
+}
+
+.ghosts {
+  float: left;
+  text-align: right;
+  margin-left: 25%;
+
+}
+
+.events {
+  float: right;
+  margin: 75px;
+  margin-right: 25%;
+}
+
+.gbutton {
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: #A9A9A9;
+}
+
+.gname{
+  text-align: center;
+}
+
+.lightbox{
+  width: 25px;
+  height: 25px;
+}
+
+.light1{
+  background-color: black;
+  color: white;
+}
+.eventb{
+  width: 10px;
+  height: 10px;
+  color: #A9A9A9;
+}
+.lightoff{
+  background-color: inherit;
+}
+/*
+.disable{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+*/
