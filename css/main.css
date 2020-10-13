@@ -77,27 +77,73 @@ body {
   display: block;
 }
 
-.ghostlookup{
-  position: relative;
+.ghostlookup {
   width: 100%;
-  height: 100%
 }
 
 .ghosts {
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
+}
+
+.ghosts table {
+  padding: 30px 30px 20px;
 }
 
 .events {
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
 }
 
+.events table {
+  padding: 30px 30px 20px;
+}
+
+@@media only screen and (min-width: 768px) {
+  .ghostlookup {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .ghosts table {
+    padding: 20px 0px 0px;
+  }
+
+  .events table {
+    padding: 20px 0px 0px;
+  }
+}
+
+@@media only screen and (min-width: 1000px) {
+  .ghostlookup {
+    width: 1000px;
+  }
+
+  .ghosts {
+    width: 50%;
+    float: left;
+  }
+
+  .ghosts table {
+    padding: 30px 30px 20px;
+  }
+
+  .events {
+    width: 50%;
+    float: right;
+  }
+
+  .events table {
+    padding: 30px 30px 20px;
+  }
+}
+
+
+
 .gbutton {
-  height: 40px;
-  width: 150px;
+  height: 35px;
+  width: 90px;
   border-radius: 8px;
   background-color: #A9A9A9;
+  font-size: 12px;
 }
 
 .gname{
@@ -112,15 +158,17 @@ body {
 .light1{
   background-color: black;
   color: white;
-}
+  }
 .eventb{
   width: 10px;
   height: 10px;
   color: #A9A9A9;
 }
+
 .lightoff{
   background-color: inherit;
 }
+
 /*
 .disable{
   opacity: 0.6;
