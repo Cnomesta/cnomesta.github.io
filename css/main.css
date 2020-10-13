@@ -76,34 +76,21 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*
+
 .ghostlookup{
   margin-top: 25px;
   display: flex;
+  width: 100%;
 }
-*/
+
 .ghosts {
-  height: 10em;
-  position: relative;
-}
-.gtable{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: 50%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .events {
-  height: 10em;
-  position: relative;
-}
-.etable{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: 50%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .gbutton {

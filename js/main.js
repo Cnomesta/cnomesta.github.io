@@ -1,4 +1,4 @@
-function emf(){
+function emf() {
   var element = document.getElementById("emflight1");
   element.classList.toggle("light1");
   var element = document.getElementById("emflight2");
@@ -15,7 +15,7 @@ function emf(){
   element.classList.toggle("light1");
 }
 
-function orb(){
+function orb() {
   var element = document.getElementById("orblight1");
   element.classList.toggle("light1");
   var element = document.getElementById("orblight2");
@@ -32,7 +32,7 @@ function orb(){
   element.classList.toggle("light1");
 }
 
-function gw(){
+function gw() {
   var element = document.getElementById("gwlight1");
   element.classList.toggle("light1");
   var element = document.getElementById("gwlight2");
@@ -49,7 +49,7 @@ function gw(){
   element.classList.toggle("light1");
 }
 
-function ft(){
+function ft() {
   var element = document.getElementById("ftlight1");
   element.classList.toggle("light1");
   var element = document.getElementById("ftlight2");
@@ -66,7 +66,7 @@ function ft(){
   element.classList.toggle("light1");
 }
 
-function sb(){
+function sb() {
   var element = document.getElementById("sblight1");
   element.classList.toggle("light1");
   var element = document.getElementById("sblight2");
@@ -85,7 +85,7 @@ function sb(){
   element.classList.toggle("light1");
 }
 
-function fp(){
+function fp() {
   var element = document.getElementById("fplight1");
   element.classList.toggle("light1");
   var element = document.getElementById("fplight2");
