@@ -313,12 +313,123 @@ function check() {
     element.classList.remove("disable");
   }
 }
-/*
-function clear() {
-  console.log(clear);
-  $('gbutton').removeClass('disable');
-  $('lightbox').removeClass('light1');
-}*/
+
+function clearbtn() {
+  var element = document.getElementById("emflight1");
+  element.classList.remove("light1");
+  var element = document.getElementById("emflight2");
+  element.classList.remove("light1");
+  var element = document.getElementById("emflight3");
+  element.classList.remove("light1");
+  var element = document.getElementById("emflight4");
+  element.classList.remove("light1");
+  var element = document.getElementById("emflight5");
+  element.classList.remove("light1");
+  var element = document.getElementById("emflight6");
+  element.classList.remove("light1");
+  var element = document.getElementById("emfb");
+  element.classList.remove("light1");
+  var element = document.getElementById("orblight1");
+  element.classList.remove("light1");
+  var element = document.getElementById("orblight2");
+  element.classList.remove("light1");
+  var element = document.getElementById("orblight3");
+  element.classList.remove("light1");
+  var element = document.getElementById("orblight4");
+  element.classList.remove("light1");
+  var element = document.getElementById("orblight5");
+  element.classList.remove("light1");
+  var element = document.getElementById("orblight6");
+  element.classList.remove("light1");
+  var element = document.getElementById("orbb");
+  element.classList.remove("light1");
+  var element = document.getElementById("gwlight1");
+  element.classList.remove("light1");
+  var element = document.getElementById("gwlight2");
+  element.classList.remove("light1");
+  var element = document.getElementById("gwlight3");
+  element.classList.remove("light1");
+  var element = document.getElementById("gwlight4");
+  element.classList.remove("light1");
+  var element = document.getElementById("gwlight5");
+  element.classList.remove("light1");
+  var element = document.getElementById("gwlight6");
+  element.classList.remove("light1");
+  var element = document.getElementById("gwb");
+  element.classList.remove("light1");
+  var element = document.getElementById("ftlight1");
+  element.classList.remove("light1");
+  var element = document.getElementById("ftlight2");
+  element.classList.remove("light1");
+  var element = document.getElementById("ftlight3");
+  element.classList.remove("light1");
+  var element = document.getElementById("ftlight4");
+  element.classList.remove("light1");
+  var element = document.getElementById("ftlight5");
+  element.classList.remove("light1");
+  var element = document.getElementById("ftlight6");
+  element.classList.remove("light1");
+  var element = document.getElementById("ftb");
+  element.classList.remove("light1");
+  var element = document.getElementById("sblight1");
+  element.classList.remove("light1");
+  var element = document.getElementById("sblight2");
+  element.classList.remove("light1");
+  var element = document.getElementById("sblight3");
+  element.classList.remove("light1");
+  var element = document.getElementById("sblight4");
+  element.classList.remove("light1");
+  var element = document.getElementById("sblight5");
+  element.classList.remove("light1");
+  var element = document.getElementById("sblight6");
+  element.classList.remove("light1");
+  var element = document.getElementById("sblight7");
+  element.classList.remove("light1");
+  var element = document.getElementById("sbb");
+  element.classList.remove("light1");
+  var element = document.getElementById("fplight1");
+  element.classList.remove("light1");
+  var element = document.getElementById("fplight2");
+  element.classList.remove("light1");
+  var element = document.getElementById("fplight3");
+  element.classList.remove("light1");
+  var element = document.getElementById("fplight4");
+  element.classList.remove("light1");
+  var element = document.getElementById("fplight5");
+  element.classList.remove("light1");
+  var element = document.getElementById("fpb");
+  element.classList.remove("light1");
+  var element = document.getElementById("emfb");
+  element.classList.remove("disable");
+  var element = document.getElementById("orbb");
+  element.classList.remove("disable");
+  var element = document.getElementById("gwb");
+  element.classList.remove("disable");
+  var element = document.getElementById("ftb");
+  element.classList.remove("disable");
+  var element = document.getElementById("sbb");
+  element.classList.remove("disable");
+  var element = document.getElementById("fpb");
+  element.classList.remove("disable");
+  if (emfn == 1) {
+    emfn--;
+  }
+  if (orbn == 1) {
+    orbn--;
+  }
+  if (gwn == 1) {
+    gwn--;
+  }
+  if (ftn == 1) {
+    ftn--;
+  }
+  if (sbn == 1) {
+    sbn--;
+  }
+  if (fpn == 1) {
+    fpn--;
+  }
+}
 
 /*
 if ( == 1 &&  == 1) {
